@@ -1,1 +1,9 @@
-# mathematical_optimization_model
+# Mathematical optimization model
+
+Modeling real-world problem is rather an art than science and this has been agreed by many scholars. Nevertheless, despite of we need to incorporate scientific elements and rules but there is still some consensus that certain models are elegant and beautiful while others lacking aesthetic appeal. Here, we are going to discuss about optimization techniques using mathematical formulation & model. Before diving into it, let us understand the problem.
+
+Optimization comes in many forms and state; whether it’s a ML model optimization (hyperparameter tuning) or feature selection or selection best asset distribution or it could be cross validation / walk-forward validation etc. Here, we will discuss about asset optimization out of the set of all portfolios being considered, according to some objective.
+In the model building phase, real-world optimization problems are structured according to their basic objects, variables, objective function and constraints. But how to structure a model in-terms of programming language? There comes the answer as mathematical model. Models are usually confined to linear or no-linear subject to data mining. Algebraic modeling approach by far is the best which allow us to implement an optimization problem close to it’s mathematical formulations. They are flexible and open to fast reformulations.
+
+Once the model is developed, we need a solver which is an algorithm, capable to solve our use case. In ideal case scenario, we need an optimal solution; however, while solving real-world use case, we often experience feasibility issue or problem is infeasible. Thus, modeling system need to support the identification of infeasibilities. To keep this article simple, I will not get into the details of mathematical formulations; however, if you want to understand as what is going on under the hood, may check here.
+Here, we will experiment with different tools and show how to apply different optimization approach to achieve optimal output.
